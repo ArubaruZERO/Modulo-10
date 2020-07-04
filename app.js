@@ -4,14 +4,14 @@
 //propiedad llamada id (debe devolver booleano true / false ).
 // -----------------------------------------------------------------------------
 
-// const shoppingCart = [
-//     { id: "44Y", price: 32, product: "chocolate" },
-//     { id: "33B", price: 32, product: "cerveza" },
-//     { price: 32,  product: "desodorante"},
-//     ];
+ const shoppingCart = [
+   { id: "44Y", price: 32, product: "chocolate" },
+   { id: "33B", price: 32, product: "cerveza" },
+   { price: 32,  product: "desodorante"},
+     ];
     
-// const hasId = product => product.every(product => product.id)
-// console.log(hasId(shoppingCart))
+ const hasId = product => product.every(product => product.id)
+ console.log(hasId(shoppingCart))
 
 
 
